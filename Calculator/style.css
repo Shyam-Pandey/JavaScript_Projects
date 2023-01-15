@@ -1,0 +1,48 @@
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+
+.calc {
+    background-color: brown;
+    padding: 30px 20px 30px 20px;
+    border-radius: 5px;
+}
+
+input {
+    width: 286px;
+    height: 41px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    outline: none;
+    border:none;
+}
+
+.btn {
+    height: 65px;
+    width: 55px;
+    padding: 5px;
+    margin: 8px;
+    border-radius: 10px;
+    border: none;
+}
+.num {
+    background-color: aqua;
+}
+.spl-btn {
+    background-color: red;
+}
+.opr-btn {
+    background-color: orange;
+}
+.equal-btn {
+    background-color: green;
+}
+.dot-btn {
+    background-color: gray;
+    font-size: 20px;
+}

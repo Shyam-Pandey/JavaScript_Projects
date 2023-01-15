@@ -1,0 +1,36 @@
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+button{
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    background-color: aquamarine;
+}
+
+button:hover{
+   cursor: pointer; 
+}
+.btn{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.darkmode{
+    background: black;
+    color: white;
+}
+
+.light-mode{
+    background: white;
+    color: black;
+}
+
